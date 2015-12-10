@@ -4,7 +4,7 @@
   "description": "Leave notes for yourself in the terminal",
   "main": "index.js",
   "bin": {
-    "no": "./notable.js"
+    "no": "./bin/notable.js"
   },
   "author": "Wells Johnston",
   "license": "MIT"
