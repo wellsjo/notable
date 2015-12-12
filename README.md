@@ -1,7 +1,12 @@
 # notable
 Leave notes for yourself in the terminal!
 
-`no <message>` saves that message and associates it with the directory you're in.  Then when you type `no` again, it shows the message.  You can overwrite it, or call `no clear` to remove it.
+`no <message>` associates the message with the directory you're in, so when you come back to the directory, you can read it again by typing `no`. To clear the message associated with that directory, type `no clear`.  To clear everything, type `no clear all`.
+
+## Install
+```bash
+npm install notable -g
+```
 
 ## Example
 ```
@@ -12,6 +17,7 @@ nothing here
 note saved
 
 >no
+Sat, Dec 12 2015 01:34:32
 hello world!
 
 >no clear
@@ -19,12 +25,6 @@ note removed
 
 >no
 nothing here
-```
-
-
-## Install
-```bash
-npm install notable -g
 ```
 
 ## License
