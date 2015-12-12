@@ -1,7 +1,7 @@
 # notable
 Leave notes for yourself in the terminal!
 
-`no <message>` associates the message with the directory you're in, so when you come back to the directory, you can read it again by typing `no`. To clear the message associated with that directory, type `no clear`.  To clear everything, type `no clear all`.
+`no <message>` associates `message` with the directory you're in, so when you come back to the directory, you can read it again by typing `no`. To clear the message associated with that directory, type `no clear`.  To clear everything, type `no clear all`.
 
 ## Install
 ```bash
