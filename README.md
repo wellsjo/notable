@@ -1,7 +1,9 @@
 # notable
-Leave notes for yourself in the terminal
+Leave notes for yourself in the terminal!
 
-## Usage
+`no <message>` saves that message and associates it with the directory you're in.  Then when you type `no` again, it shows the message.  You can overwrite it, or call `no clear` to remove it.
+
+## Example
 ```
 >no
 nothing here
@@ -24,3 +26,6 @@ nothing here
 ```bash
 npm install notable -g
 ```
+
+## License
+MIT
