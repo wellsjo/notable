@@ -1,12 +1,20 @@
 #!/usr/bin/env node
 
+/**
+ * Command line utility for leaving notes for yourself in the terminal.
+ *
+ * @author Wells Johnston w@wellsjohnston.com
+ */
+
+'use strict'
+
 const fs = require('fs');
 const args = process.argv.slice(2);
-const notesDir = `${process.env.HOME}/.notables`;
+const notesDir = `${process.env.HOME}/.notable`;
 const location = `${notesDir}/${process.cwd().replace(/\//g, '-')}`;
 
 if (args.join(' ') == 'clear all') {
-  removeFiles(no)
+  removeFiles(notesDir);
 } else if (args[0] == 'clear') {
   removeFile(location);
   console.log('note removed')
